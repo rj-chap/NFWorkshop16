@@ -6,9 +6,9 @@ README.md v0.1 -- If this number changes, go check the change log :)
 
 # Workshop Details
 
-In the workshop, I will walk attendees through how Bechtel’s "Team Threat Level Pancakes" (formerly "Team DOFIR") took 1st place in LMG Security’s Network Forensics Puzzle Contest (NFPC) at DefCon 23 (2015). This was a repeat win for us, and we enjoy every minute that we have spent on these challenges. LMG holds an awesome annual contest, and we are proud to show the tech that we used to complete the most recent challenge. Keep in mind that this is a "WE" thing. I put together the workshop, but OUR TEAM wins these things. I am honored to work with such awesome people.
+In the workshop, I will walk attendees through how Bechtel’s "Team Threat Level Pancakes" (formerly "Team DOFIR") took 1st place in LMG Security’s Network Forensics Puzzle Contest (NFPC) at DefCon 23 (2015). This was a repeat win for us, and we enjoyed every minute that we have spent on these challenges. LMG holds an awesome annual contest, and we are proud to show the tech that we used to complete the most recent challenge. Keep in mind that this is a "WE" thing. I put together the workshop, but OUR TEAM wins these things. I am honored to work with such awesome people.
 
-To solve the sucker, we used tools such as Wireshark, bash, volatility, Python, and others. I cover how we put together some scripts and commands in order to streamline our methodology. My goal: Show off some cool network forensics tech and garner interest for yet another NFPC. We want some top-notch competition, so check out what we have to offer and be sure to get your game on at DefCon 24 in 2016!
+To solve the sucker, we used tools such as Wireshark, NetworkMiner, bash, volatility, Python, and others. I cover how we put together some scripts and commands in order to streamline our methodology. My goal: Show off some cool network forensics tech and garner interest for yet another NFPC. We want some top-notch competition, so check out what we have to offer and be sure to get your game on at DefCon 24 in 2016!
 
 ---
 
@@ -18,19 +18,21 @@ I recommend that you use Kali Linux v2.0+.  See here: https://www.kali.org/downl
 
 For the workshop, please install the following tools:
 
-Bless – Great *nix-based hex editor
-Audacity – Audio playing/editing program with the ability to play audio files in reverse (see Round 3)
-TCPlay – Free and simple TrueCrypt Implementation based on dm-crypt (see Round 6)
+- *bless* – Great nix-based hex editor
+- *Audacity* – Audio playing/editing program with the ability to play audio files in reverse (see Round 3)
+- *tcplay* – Free and simple TrueCrypt Implementation based on dm-crypt (see Round 6)
 
 You can install all three in Kali using the following command:
 
-*sudo apt-get install bless audacity tcplay*
+**sudo apt-get install bless audacity tcplay**
 
 ## NetworkMiner
 
-Last year, I made a point to avoid NetworkMiner.  This year, our intern showed us that NetworkMiner might be required!  Hah!
+Last year, I made a point to avoid NetworkMiner.  This year, our intern showed us that easy-of-use tools such as NetworkMiner might be required in these challenges.  Hah!
 
-We will *need* NetworkMiner (NM) to complete Round 3.  You can grab NM here: http://www.netresec.com/?page=NetworkMiner.  Feel free to run NM under Windows, either in your host OS or within a Windows-based VM.  Personally, I like to run NM under Kali using mono.  For details, see here: http://www.netresec.com/?page=Blog&month=2011-12&post=No-more-Wine---NetworkMiner-in-Linux-with-Mono.
+We will *need* NetworkMiner (NM) to complete Round 3.  You can grab NM here: http://www.netresec.com/?page=NetworkMiner.  Feel free to run NM under Windows, either in your host OS or within a Windows-based VM.
+
+Personally, I like to run NM under Kali using mono.  For details, see here: http://www.netresec.com/?page=Blog&month=2011-12&post=No-more-Wine---NetworkMiner-in-Linux-with-Mono.
 
 If you want to run NM under Kali, please visit the above link and set this up prior to the workshop.
 
@@ -39,8 +41,8 @@ If you want to run NM under Kali, please visit the above link and set this up pr
 Many of the tools that you will need for this workshop are bundled with Kali 2.x.  For those not using Kali, please make sure that you have the following tools available in addition to those listed above:
 
 - Wireshark (1.12.x preferred; please only use 2.0 if you are familiar with all GUI-based changes)
-- Python (2.6 preferred; avoid 3.0 'cause reasons)
-- Volatility 2.4+ (http://www.volatilityfoundation.org/; we'll be using 2.4)
+- Python (2.6 preferred -- avoid 3.0 'cause reasons)
+- Volatility 2.4+ (http://www.volatilityfoundation.org/ -- we'll be using 2.4)
 - foremost (http://foremost.sourceforge.net/)
 - aircrack-ng (http://www.aircrack-ng.org/)
 
@@ -50,9 +52,9 @@ Many of the tools that you will need for this workshop are bundled with Kali 2.x
 
 At CactusCon 2016, I will be handing out 40 copies of LMG Security's Network Forensics Puzzle Challenge 2015 DVD.  If you receive one, and you have a DVD drive, great!
 
-Additionally, I will have a WNDR3700 router setup along with a switch.  The relevant files will be available via a local network share on this private network.  If you received the files this way, great!
+Additionally, I will have a WNDR3700 router setup along with a switch.  The relevant files will be available via a local network share on this private network.  Be sure to bring a network adapter if you don't have one built-in, and be sure to bring an Ethernet cable too (heck, bring a few and share).
 
-If you did not receive the associated PCAP files at CactusCon, FEAR NOT!  Please contact me for details or go directly to the source: LMG Security (@LMGSecurity).
+If the CactusCon '16 is over, and you did not receive the associated PCAP files at the conference, FEAR NOT!  Please contact me for details or go directly to the source: LMG Security (@LMGSecurity).
 
 ## Passwords
 
