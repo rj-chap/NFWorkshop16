@@ -28,7 +28,7 @@ You can install all three in Kali using the following command:
 
 ## NetworkMiner
 
-Last year, I made a point to avoid NetworkMiner.  This year, our intern showed us that easy-of-use tools such as NetworkMiner might be required in these challenges.  Hah!
+Last year, I made a point to avoid NetworkMiner.  This year, our intern showed us that ease-of-use tools such as NetworkMiner might be required in these challenges.  Hah!
 
 We will *need* NetworkMiner (NM) to complete Round 3.  You can grab NM here: http://www.netresec.com/?page=NetworkMiner.  Feel free to run NM under Windows, either in your host OS or within a Windows-based VM.
 
