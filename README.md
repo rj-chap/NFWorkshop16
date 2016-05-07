@@ -54,7 +54,7 @@ At CactusCon 2016, I will be handing out 40 copies of LMG Security's Network For
 
 Additionally, I will have a WNDR3700 router setup along with a switch.  The relevant files will be available via a local network share on this private network.  Be sure to bring a network adapter if you don't have one built-in, and be sure to bring an Ethernet cable too (heck, bring a few and share).
 
-If the CactusCon '16 is over, and you did not receive the associated PCAP files at the conference, FEAR NOT!  Please contact me for details or go directly to the source: LMG Security (@LMGSecurity).
+If CactusCon '16 is over, and you did not receive the associated PCAP files at the conference, FEAR NOT!  Please contact me for details or go directly to the source: LMG Security (@LMGSecurity).
 
 ## Passwords
 
